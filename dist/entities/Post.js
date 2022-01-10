@@ -22,7 +22,7 @@ __decorate([
     __metadata("design:type", Number)
 ], Post.prototype, "_id", void 0);
 __decorate([
-    (0, core_1.Property)(),
+    (0, core_1.Property)({ type: "date" }),
     __metadata("design:type", Date)
 ], Post.prototype, "createdAt", void 0);
 __decorate([
@@ -30,7 +30,7 @@ __decorate([
     __metadata("design:type", Date)
 ], Post.prototype, "updatedAt", void 0);
 __decorate([
-    (0, core_1.Property)(),
+    (0, core_1.Property)({ type: "text" }),
     __metadata("design:type", String)
 ], Post.prototype, "title", void 0);
 Post = __decorate([

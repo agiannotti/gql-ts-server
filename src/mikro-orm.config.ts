@@ -10,6 +10,7 @@ export default {
   },
   entities: [Post],
   dbName: "gql-ts-server",
+  user: "aj.gianno",
   type: "postgresql",
   debug: !__prod__,
 } as Parameters<typeof MikroORM.init>[0];
